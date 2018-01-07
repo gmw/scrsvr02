@@ -10,4 +10,7 @@
 
 @interface Patterns_02View : ScreenSaverView
 
+@property (nonatomic) float startAngle;
+@property (nonatomic, strong) NSFont* font;
+@property (nonatomic, strong) NSDictionary<NSAttributedStringKey, id>* attrs;
 @end
